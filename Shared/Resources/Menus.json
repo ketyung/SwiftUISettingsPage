@@ -1,0 +1,38 @@
+[{
+    "id": 1,
+    "name": "Account",
+    "items": [
+        {
+           "id": 1,
+           "title": "My Account",
+           "imageName": "person",
+           "destination": "account"
+        }
+    ]
+},
+{
+    "id": 2,
+    "name": "More Features",
+    "items": [
+        {
+           "id": 1,
+           "title": "Profit & Loss",
+           "imageName": "dollarsign.circle",
+           "destination": "profit_lost"
+        },
+        {
+           "id": 2,
+           "title": "Announcement",
+           "imageName": "newspaper",
+           "destination": "announcement"
+        },
+        {
+           "id": 3,
+           "title": "Stock Alerts",
+           "imageName": "bell",
+           "destination": "stock_alert"
+        }
+    ]
+    
+}]
+

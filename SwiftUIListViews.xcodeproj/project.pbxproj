@@ -7,8 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10F7A2CE2588630300A2CDF5 /* SwiftUIListViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F7A2BB258862FF00A2CDF5 /* SwiftUIListViewsApp.swift */; };
-		10F7A2CF2588630300A2CDF5 /* SwiftUIListViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F7A2BB258862FF00A2CDF5 /* SwiftUIListViewsApp.swift */; };
+		100DBB3325DE5DC900ECD788 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB3225DE5DC900ECD788 /* Extensions.swift */; };
+		100DBB3425DE5DC900ECD788 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB3225DE5DC900ECD788 /* Extensions.swift */; };
+		100DBB4525DE5DF000ECD788 /* SettingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB3E25DE5DF000ECD788 /* SettingRowView.swift */; };
+		100DBB4625DE5DF000ECD788 /* SettingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB3E25DE5DF000ECD788 /* SettingRowView.swift */; };
+		100DBB4725DE5DF000ECD788 /* DynamicSettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB3F25DE5DF000ECD788 /* DynamicSettingsPage.swift */; };
+		100DBB4825DE5DF000ECD788 /* DynamicSettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB3F25DE5DF000ECD788 /* DynamicSettingsPage.swift */; };
+		100DBB4925DE5DF000ECD788 /* AnnouncementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB4025DE5DF000ECD788 /* AnnouncementView.swift */; };
+		100DBB4A25DE5DF000ECD788 /* AnnouncementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB4025DE5DF000ECD788 /* AnnouncementView.swift */; };
+		100DBB4B25DE5DF000ECD788 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB4125DE5DF000ECD788 /* AccountView.swift */; };
+		100DBB4C25DE5DF000ECD788 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB4125DE5DF000ECD788 /* AccountView.swift */; };
+		100DBB4D25DE5DF000ECD788 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB4225DE5DF000ECD788 /* SettingsPage.swift */; };
+		100DBB4E25DE5DF000ECD788 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB4225DE5DF000ECD788 /* SettingsPage.swift */; };
+		100DBB4F25DE5DF000ECD788 /* StockAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB4325DE5DF000ECD788 /* StockAlertView.swift */; };
+		100DBB5025DE5DF000ECD788 /* StockAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB4325DE5DF000ECD788 /* StockAlertView.swift */; };
+		100DBB5125DE5DF000ECD788 /* ProfitAndLossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB4425DE5DF000ECD788 /* ProfitAndLossView.swift */; };
+		100DBB5225DE5DF000ECD788 /* ProfitAndLossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB4425DE5DF000ECD788 /* ProfitAndLossView.swift */; };
+		100DBB5925DE5E0A00ECD788 /* Menus.json in Resources */ = {isa = PBXBuildFile; fileRef = 100DBB5625DE5E0A00ECD788 /* Menus.json */; };
+		100DBB5A25DE5E0A00ECD788 /* Menus.json in Resources */ = {isa = PBXBuildFile; fileRef = 100DBB5625DE5E0A00ECD788 /* Menus.json */; };
+		100DBB5B25DE5E0A00ECD788 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB5725DE5E0A00ECD788 /* MenuItem.swift */; };
+		100DBB5C25DE5E0A00ECD788 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB5725DE5E0A00ECD788 /* MenuItem.swift */; };
+		100DBB5D25DE5E0A00ECD788 /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB5825DE5E0A00ECD788 /* MenuSection.swift */; };
+		100DBB5E25DE5E0A00ECD788 /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB5825DE5E0A00ECD788 /* MenuSection.swift */; };
+		100DBB6A25DE5EF300ECD788 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB6925DE5EF300ECD788 /* HomeView.swift */; };
+		100DBB6B25DE5EF300ECD788 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB6925DE5EF300ECD788 /* HomeView.swift */; };
+		100DBB6F25DE5FB000ECD788 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB6E25DE5FB000ECD788 /* WebView.swift */; };
+		100DBB7025DE5FB000ECD788 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DBB6E25DE5FB000ECD788 /* WebView.swift */; };
+		10F7A2CE2588630300A2CDF5 /* SwiftUISettingsPageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F7A2BB258862FF00A2CDF5 /* SwiftUISettingsPageApp.swift */; };
+		10F7A2CF2588630300A2CDF5 /* SwiftUISettingsPageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F7A2BB258862FF00A2CDF5 /* SwiftUISettingsPageApp.swift */; };
 		10F7A2D02588630300A2CDF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F7A2BC258862FF00A2CDF5 /* ContentView.swift */; };
 		10F7A2D12588630300A2CDF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F7A2BC258862FF00A2CDF5 /* ContentView.swift */; };
 		10F7A2D22588630300A2CDF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F7A2BD2588630300A2CDF5 /* Assets.xcassets */; };
@@ -16,7 +42,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		10F7A2BB258862FF00A2CDF5 /* SwiftUIListViewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListViewsApp.swift; sourceTree = "<group>"; };
+		100DBB3225DE5DC900ECD788 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		100DBB3E25DE5DF000ECD788 /* SettingRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingRowView.swift; sourceTree = "<group>"; };
+		100DBB3F25DE5DF000ECD788 /* DynamicSettingsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicSettingsPage.swift; sourceTree = "<group>"; };
+		100DBB4025DE5DF000ECD788 /* AnnouncementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementView.swift; sourceTree = "<group>"; };
+		100DBB4125DE5DF000ECD788 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		100DBB4225DE5DF000ECD788 /* SettingsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		100DBB4325DE5DF000ECD788 /* StockAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockAlertView.swift; sourceTree = "<group>"; };
+		100DBB4425DE5DF000ECD788 /* ProfitAndLossView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfitAndLossView.swift; sourceTree = "<group>"; };
+		100DBB5625DE5E0A00ECD788 /* Menus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Menus.json; sourceTree = "<group>"; };
+		100DBB5725DE5E0A00ECD788 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		100DBB5825DE5E0A00ECD788 /* MenuSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
+		100DBB6925DE5EF300ECD788 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		100DBB6E25DE5FB000ECD788 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		10F7A2BB258862FF00A2CDF5 /* SwiftUISettingsPageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISettingsPageApp.swift; sourceTree = "<group>"; };
 		10F7A2BC258862FF00A2CDF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10F7A2BD2588630300A2CDF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10F7A2C22588630300A2CDF5 /* SwiftUIListViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIListViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +83,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		100DBB5525DE5DF400ECD788 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				100DBB3E25DE5DF000ECD788 /* SettingRowView.swift */,
+				100DBB4225DE5DF000ECD788 /* SettingsPage.swift */,
+				100DBB3F25DE5DF000ECD788 /* DynamicSettingsPage.swift */,
+				100DBB4125DE5DF000ECD788 /* AccountView.swift */,
+				100DBB4025DE5DF000ECD788 /* AnnouncementView.swift */,
+				100DBB4425DE5DF000ECD788 /* ProfitAndLossView.swift */,
+				100DBB4325DE5DF000ECD788 /* StockAlertView.swift */,
+				100DBB6925DE5EF300ECD788 /* HomeView.swift */,
+				100DBB6E25DE5FB000ECD788 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		100DBB6125DE5E5700ECD788 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				100DBB5825DE5E0A00ECD788 /* MenuSection.swift */,
+				100DBB5725DE5E0A00ECD788 /* MenuItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		100DBB6425DE5E6C00ECD788 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				100DBB5625DE5E0A00ECD788 /* Menus.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		10F7A2B5258862FF00A2CDF5 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +129,11 @@
 		10F7A2BA258862FF00A2CDF5 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				10F7A2BB258862FF00A2CDF5 /* SwiftUIListViewsApp.swift */,
+				100DBB6425DE5E6C00ECD788 /* Resources */,
+				100DBB6125DE5E5700ECD788 /* Models */,
+				100DBB5525DE5DF400ECD788 /* Views */,
+				10F7A2BB258862FF00A2CDF5 /* SwiftUISettingsPageApp.swift */,
+				100DBB3225DE5DC900ECD788 /* Extensions.swift */,
 				10F7A2BC258862FF00A2CDF5 /* ContentView.swift */,
 				10F7A2BD2588630300A2CDF5 /* Assets.xcassets */,
 			);
@@ -134,7 +210,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					10F7A2C12588630300A2CDF5 = {
 						CreatedOnToolsVersion = 12.2;
@@ -168,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100DBB5925DE5E0A00ECD788 /* Menus.json in Resources */,
 				10F7A2D22588630300A2CDF5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100DBB5A25DE5E0A00ECD788 /* Menus.json in Resources */,
 				10F7A2D32588630300A2CDF5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,8 +265,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100DBB4525DE5DF000ECD788 /* SettingRowView.swift in Sources */,
+				100DBB4925DE5DF000ECD788 /* AnnouncementView.swift in Sources */,
+				100DBB6A25DE5EF300ECD788 /* HomeView.swift in Sources */,
+				100DBB4F25DE5DF000ECD788 /* StockAlertView.swift in Sources */,
+				100DBB4725DE5DF000ECD788 /* DynamicSettingsPage.swift in Sources */,
+				100DBB4D25DE5DF000ECD788 /* SettingsPage.swift in Sources */,
 				10F7A2D02588630300A2CDF5 /* ContentView.swift in Sources */,
-				10F7A2CE2588630300A2CDF5 /* SwiftUIListViewsApp.swift in Sources */,
+				100DBB4B25DE5DF000ECD788 /* AccountView.swift in Sources */,
+				100DBB3325DE5DC900ECD788 /* Extensions.swift in Sources */,
+				100DBB5B25DE5E0A00ECD788 /* MenuItem.swift in Sources */,
+				10F7A2CE2588630300A2CDF5 /* SwiftUISettingsPageApp.swift in Sources */,
+				100DBB5D25DE5E0A00ECD788 /* MenuSection.swift in Sources */,
+				100DBB5125DE5DF000ECD788 /* ProfitAndLossView.swift in Sources */,
+				100DBB6F25DE5FB000ECD788 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +286,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100DBB4625DE5DF000ECD788 /* SettingRowView.swift in Sources */,
+				100DBB4A25DE5DF000ECD788 /* AnnouncementView.swift in Sources */,
+				100DBB6B25DE5EF300ECD788 /* HomeView.swift in Sources */,
+				100DBB5025DE5DF000ECD788 /* StockAlertView.swift in Sources */,
+				100DBB4825DE5DF000ECD788 /* DynamicSettingsPage.swift in Sources */,
+				100DBB4E25DE5DF000ECD788 /* SettingsPage.swift in Sources */,
 				10F7A2D12588630300A2CDF5 /* ContentView.swift in Sources */,
-				10F7A2CF2588630300A2CDF5 /* SwiftUIListViewsApp.swift in Sources */,
+				100DBB4C25DE5DF000ECD788 /* AccountView.swift in Sources */,
+				100DBB3425DE5DC900ECD788 /* Extensions.swift in Sources */,
+				100DBB5C25DE5E0A00ECD788 /* MenuItem.swift in Sources */,
+				10F7A2CF2588630300A2CDF5 /* SwiftUISettingsPageApp.swift in Sources */,
+				100DBB5E25DE5E0A00ECD788 /* MenuSection.swift in Sources */,
+				100DBB5225DE5DF000ECD788 /* ProfitAndLossView.swift in Sources */,
+				100DBB7025DE5FB000ECD788 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 69FAF79796;
@@ -390,6 +493,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 69FAF79796;
