@@ -58,9 +58,9 @@
 		10F7A2BB258862FF00A2CDF5 /* SwiftUISettingsPageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISettingsPageApp.swift; sourceTree = "<group>"; };
 		10F7A2BC258862FF00A2CDF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10F7A2BD2588630300A2CDF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		10F7A2C22588630300A2CDF5 /* SwiftUIListViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIListViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F7A2C22588630300A2CDF5 /* SwiftUISettingsPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISettingsPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F7A2C52588630300A2CDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10F7A2CA2588630300A2CDF5 /* SwiftUIListViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIListViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F7A2CA2588630300A2CDF5 /* SwiftUISettingsPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISettingsPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F7A2CC2588630300A2CDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10F7A2CD2588630300A2CDF5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,8 +143,8 @@
 		10F7A2C32588630300A2CDF5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				10F7A2C22588630300A2CDF5 /* SwiftUIListViews.app */,
-				10F7A2CA2588630300A2CDF5 /* SwiftUIListViews.app */,
+				10F7A2C22588630300A2CDF5 /* SwiftUISettingsPage.app */,
+				10F7A2CA2588630300A2CDF5 /* SwiftUISettingsPage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,9 +169,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		10F7A2C12588630300A2CDF5 /* SwiftUIListViews (iOS) */ = {
+		10F7A2C12588630300A2CDF5 /* SwiftUISettingsPage (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10F7A2D62588630300A2CDF5 /* Build configuration list for PBXNativeTarget "SwiftUIListViews (iOS)" */;
+			buildConfigurationList = 10F7A2D62588630300A2CDF5 /* Build configuration list for PBXNativeTarget "SwiftUISettingsPage (iOS)" */;
 			buildPhases = (
 				10F7A2BE2588630300A2CDF5 /* Sources */,
 				10F7A2BF2588630300A2CDF5 /* Frameworks */,
@@ -181,14 +181,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUIListViews (iOS)";
+			name = "SwiftUISettingsPage (iOS)";
 			productName = "SwiftUIListViews (iOS)";
-			productReference = 10F7A2C22588630300A2CDF5 /* SwiftUIListViews.app */;
+			productReference = 10F7A2C22588630300A2CDF5 /* SwiftUISettingsPage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		10F7A2C92588630300A2CDF5 /* SwiftUIListViews (macOS) */ = {
+		10F7A2C92588630300A2CDF5 /* SwiftUISettingsPage (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10F7A2D92588630300A2CDF5 /* Build configuration list for PBXNativeTarget "SwiftUIListViews (macOS)" */;
+			buildConfigurationList = 10F7A2D92588630300A2CDF5 /* Build configuration list for PBXNativeTarget "SwiftUISettingsPage (macOS)" */;
 			buildPhases = (
 				10F7A2C62588630300A2CDF5 /* Sources */,
 				10F7A2C72588630300A2CDF5 /* Frameworks */,
@@ -198,9 +198,9 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUIListViews (macOS)";
+			name = "SwiftUISettingsPage (macOS)";
 			productName = "SwiftUIListViews (macOS)";
-			productReference = 10F7A2CA2588630300A2CDF5 /* SwiftUIListViews.app */;
+			productReference = 10F7A2CA2588630300A2CDF5 /* SwiftUISettingsPage.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 10F7A2B9258862FF00A2CDF5 /* Build configuration list for PBXProject "SwiftUIListViews" */;
+			buildConfigurationList = 10F7A2B9258862FF00A2CDF5 /* Build configuration list for PBXProject "SwiftUISettingsPage" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -233,8 +233,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				10F7A2C12588630300A2CDF5 /* SwiftUIListViews (iOS) */,
-				10F7A2C92588630300A2CDF5 /* SwiftUIListViews (macOS) */,
+				10F7A2C12588630300A2CDF5 /* SwiftUISettingsPage (iOS) */,
+				10F7A2C92588630300A2CDF5 /* SwiftUISettingsPage (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -432,7 +432,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.techchee.apps.test.SwiftUIListViews;
-				PRODUCT_NAME = SwiftUIListViews;
+				PRODUCT_NAME = SwiftUISettingsPage;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,7 +454,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.techchee.apps.test.SwiftUIListViews;
-				PRODUCT_NAME = SwiftUIListViews;
+				PRODUCT_NAME = SwiftUISettingsPage;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,7 +481,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.techchee.apps.test.SwiftUIListViews;
-				PRODUCT_NAME = SwiftUIListViews;
+				PRODUCT_NAME = SwiftUISettingsPage;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -506,7 +506,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.techchee.apps.test.SwiftUIListViews;
-				PRODUCT_NAME = SwiftUIListViews;
+				PRODUCT_NAME = SwiftUISettingsPage;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -515,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10F7A2B9258862FF00A2CDF5 /* Build configuration list for PBXProject "SwiftUIListViews" */ = {
+		10F7A2B9258862FF00A2CDF5 /* Build configuration list for PBXProject "SwiftUISettingsPage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10F7A2D42588630300A2CDF5 /* Debug */,
@@ -524,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		10F7A2D62588630300A2CDF5 /* Build configuration list for PBXNativeTarget "SwiftUIListViews (iOS)" */ = {
+		10F7A2D62588630300A2CDF5 /* Build configuration list for PBXNativeTarget "SwiftUISettingsPage (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10F7A2D72588630300A2CDF5 /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		10F7A2D92588630300A2CDF5 /* Build configuration list for PBXNativeTarget "SwiftUIListViews (macOS)" */ = {
+		10F7A2D92588630300A2CDF5 /* Build configuration list for PBXNativeTarget "SwiftUISettingsPage (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10F7A2DA2588630300A2CDF5 /* Debug */,
